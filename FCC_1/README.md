@@ -1,0 +1,1 @@
+Here I'm going to put all freecodecamp currículum made by myself without any tutorial just to make sure I'm learning everything, I'm going to start from the most basic and after finish each part I'm going to be here to make my page as my way without see any tutorial
