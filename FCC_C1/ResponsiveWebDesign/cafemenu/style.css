@@ -50,3 +50,17 @@ header p {
   text-align: center;
   font-style: italic;
 }
+
+footer {
+  text-align: center;
+  margin: 10px auto;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: brown;
+}
+a:visited {
+  color: yellow;
+}
