@@ -1,0 +1,52 @@
+/*
+Links del proyecto
+Café: https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg
+
+dessert: https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg
+
+background: https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg
+
+Colores::
+.menu -> color:burlywood, width:80%,padding:20px, max-width:500px
+color der border -> brown
+
+Body -> sans-serif, padding:20px
+h1:fontSize: 40px -> Impact,serif
+h2: fontSize:30px
+p -> fontSize:18px
+*/
+body {
+  background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+main {
+  background-color: burlywood;
+  width: 80%;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.items {
+  justify-content: center;
+  text-align: center;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  color: brown;
+  border: 2.5px brown solid;
+}
+header p {
+  text-align: center;
+  font-style: italic;
+}
