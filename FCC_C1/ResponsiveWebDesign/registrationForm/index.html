@@ -26,7 +26,11 @@
             <input type="email" id="email" required /></label
           ><label for="password"
             >please enter your new-password:
-            <input type="password" id="password" required
+            <input
+              type="password"
+              id="password"
+              required
+              pattern="[a-z0-5]{8,}"
           /></label>
         </form>
       </fieldset>
