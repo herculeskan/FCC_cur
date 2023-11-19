@@ -1,15 +1,10 @@
 body {
   width: 100%;
+  margin: auto;
   height: 100vh;
   color: #f5f6f7;
   /* background provided by https://cssgradient.io/  not think that much about colors, think more about facts*/
-  background: rgb(43, 46, 74);
-  background: radial-gradient(
-    circle,
-    rgba(43, 46, 74, 1) 17%,
-    rgba(232, 69, 69, 1) 51%,
-    rgba(144, 55, 73, 1) 84%
-  );
+  background-image: url("https://nalunprice.files.wordpress.com/2013/04/fight-club-10th-anniversary-edition-1999-1080p-brrip-x264-yify-mp4_snapshot_02-15-48_2013-03-28_06-44-45.jpg");
 }
 label {
   display: block;
@@ -20,9 +15,9 @@ main {
   margin: 0 15%;
   border-radius: 60px;
 
-  padding: 25px;
+  padding: 30px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  background: rgba(144, 55, 73, 0.4);
+  background: rgba(0, 27, 88, 0.8);
 }
