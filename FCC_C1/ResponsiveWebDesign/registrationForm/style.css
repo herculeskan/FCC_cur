@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Vina+Sans&display=swap");
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-family: "Vina Sans", sans-serif;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.8);
+}
+p,
+label {
+  font-family: "Roboto", sans-serif;
+}
 body {
   width: 100%;
   margin: auto;
@@ -12,12 +24,31 @@ label {
 }
 
 main {
-  margin: 0 15%;
-  border-radius: 60px;
-
-  padding: 30px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  width: 60vh;
+  min-width: 300px;
+  max-width: 500px;
   background: rgba(0, 27, 88, 0.8);
+  border-radius: 60px;
+}
+fieldset {
+  margin: 9px 0;
+  padding: 3rem 0;
+  border: none;
+  border-bottom: 2px solid #f5f6f7;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+fieldset:last-of-type {
+  border-bottom: none;
 }

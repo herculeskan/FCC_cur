@@ -19,8 +19,10 @@
           <label for="name"
             >Please enter your name: <input type="text" id="name" /></label
           ><label for="lastName"
-            >Please enter your lastName:
-            <input type="text" id="lastName" required /></label
+            >Please enter your lastName:<input
+              type="text"
+              id="lastName"
+              required /></label
           ><label for="email">
             please enter your email:
             <input type="email" id="email" required /></label
@@ -49,13 +51,46 @@
         >
       </fieldset>
 
-      <fieldset></fieldset>
+      <fieldset>
+        <!--  the third fieldset has to have 
+        1, updload profile picture,
+         and age verification,
+          how you hear about us(select one) 
+          and a bio text
+        -->
+        <!-- fiel         -->
+        <label for="profile-picture">
+          upload a profile picture:
+          <input type="file" name="profile" id="profile-picture"
+        /></label>
+        <label for="age"
+          >How old are you?:
+          <input type="number" name="age" id="age" min="13" max="120"
+        /></label>
+        <label for="option">
+          <select name="option" id="option">
+            <option value="">(select 1 option)</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+        </label>
+        <label for="bio">
+          <textarea
+            name="bio"
+            id="bio"
+            cols="30"
+            rows="10"
+            placeholder="Please tell us about you here"
+          ></textarea>
+        </label>
+      </fieldset>
       <label for="terms-and-conditions"
         ><input
           type="checkbox"
           name="terms-and-conditions"
           id="terms-and-conditions"
-        />I accept the terms and conditions</label
+        />I accept terms and conditions</label
       >
       <input type="submit" value="Submit" />
     </main>
